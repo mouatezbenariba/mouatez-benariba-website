@@ -72,8 +72,11 @@ nav .nav-links {
 
 .nav-links a {
   color: #fff;
-  text-decoration-color: #ffb2b2;
-  text-decoration-thickness: 0.1rem;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline solid #ffb2b2 0.1rem;
 }
 
 /* --------------- */
