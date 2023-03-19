@@ -82,7 +82,7 @@ nav .nav-links {
 main {
   padding: 2rem;
   background-color: #9b2727;
-  background-image: url(/assests/images/grains/bg-grain-dark.png);
+  background-image: url(/assets/images/elements/grains/bg-grain-dark.png);
   background-size: 350px auto;
   filter: hue-rotate(1);
 }
