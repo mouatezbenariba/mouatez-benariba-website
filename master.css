@@ -115,7 +115,7 @@ h1 + span {
   display: inline-block;
 }
 
-p {
+section.main-info p {
   font-family: 'Cabinet Grotesk', sans-serif;
   color: #fff;
   font-size: 2rem;
