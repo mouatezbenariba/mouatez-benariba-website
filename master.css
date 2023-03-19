@@ -241,3 +241,53 @@ figure {
 .project__links__live:hover svg path {
   fill: #ffc107;
 }
+
+/* --------------- */
+/*  Footer  Style  */
+/* --------------- */
+
+footer {
+  padding: 1.5rem 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #7a1f1f;
+  background-image: url(/assets/images/elements/grains/bg-grain-dark.png);
+  background-size: 350px auto;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+p.footer__copyright {
+  flex-basis: 100%;
+}
+
+.footer__links li:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.footer__links li {
+  transform: rotateZ(0) scale(1);
+}
+
+.footer__links li:hover {
+  transform: rotateZ(5deg) scale(1.1);
+}
+
+.footer__links svg {
+  width: 2.3rem;
+  fill: #fff;
+}
+
+.footer__links svg:hover {
+  fill: #ffc107;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
