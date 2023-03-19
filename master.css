@@ -1,0 +1,243 @@
+:root {
+}
+
+/* --------------- */
+/*      Reset      */
+/* --------------- */
+
+/* Remove body margin */
+body {
+  margin: 0;
+}
+
+/*  Box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* reset list style */
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* --------------- */
+/*  Utility Class  */
+/* --------------- */
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* --------------- */
+/*  Header  Style  */
+/* --------------- */
+header {
+  padding: 1.5rem 0;
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  background-color: #7a1f1f;
+  background-image: url(/assests/images/grains/bg-grain-dark.png);
+  background-size: 350px auto;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+
+nav .nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'Inter', sans-serif;
+}
+
+.nav-links li {
+  margin-right: 1rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration-color: #ffb2b2;
+  text-decoration-thickness: 0.1rem;
+}
+
+/* --------------- */
+/*  Main Style  */
+/* --------------- */
+main {
+  padding: 2rem;
+  background-color: #9b2727;
+  background-image: url(/assests/images/grains/bg-grain-dark.png);
+  background-size: 350px auto;
+  filter: hue-rotate(1);
+}
+
+section.main-info {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* element header */
+h1 {
+  font-family: 'Cabinet Grotesk', sans-serif;
+  color: #fff;
+  font-size: 4rem;
+}
+
+section.main-info h1 {
+  margin: 1rem;
+  width: 47rem;
+}
+
+h1 + span {
+  font-family: 'Cabinet Grotesk', sans-serif;
+  font-size: 3rem;
+  font-weight: 300;
+  margin: -1.3rem 1rem 1rem;
+  color: #ffc107;
+  display: inline-block;
+}
+
+p {
+  font-family: 'Cabinet Grotesk', sans-serif;
+  color: #fff;
+  font-size: 2rem;
+  margin: 1rem;
+  width: 40rem;
+}
+
+.header__key {
+  text-decoration: underline solid #ffc107b0 0.3rem;
+  text-underline-offset: 0.3rem;
+}
+
+/* element */
+figure {
+  margin: 1rem;
+}
+
+.main-figure__personal {
+  width: 20rem;
+  height: 100%;
+}
+
+.main-figure__spider-octocat {
+  position: absolute;
+  left: 41.6rem;
+  top: 5.9rem;
+  width: 11rem;
+}
+
+.showcase__tagline h1 {
+  text-align: center;
+}
+
+.showcase__projects {
+  display: flex;
+  justify-content: space-between;
+}
+
+.showcase__projects .project {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 17rem;
+  flex-basis: calc((1200px - 13px) / 3);
+  text-align: center;
+  background-color: #7a1f1f;
+  background-image: url(/assests/images/grains/bg-grain-dark.png);
+  background-size: 350px auto;
+  font-family: 'Cabinet Grotesk', sans-serif;
+  font-weight: 300;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.showcase__projects .project:hover {
+  box-shadow: inset 0 0 15px 0px #ff5722;
+  font-weight: 400;
+  transition-duration: 0.4s;
+}
+
+.showcase__projects .project:hover .illustration__figure img {
+  transform: scale(1);
+  margin-top: 4rem;
+  transition-duration: 0.4s;
+}
+
+.showcase__projects .project:hover .project__illustration {
+  flex-basis: 75%;
+  transition-duration: 0.4s;
+}
+
+.project__illustration {
+  flex-basis: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.4s;
+}
+
+.illustration__figure img {
+  width: 20rem;
+  transform: scale(1.2);
+  transition-duration: 0.4s;
+}
+
+/* adjust the position for personal website logo */
+.project.personal-website .illustration__figure img,
+.project.personal-blog .illustration__figure img {
+  margin-top: 3rem;
+}
+
+.project__links__description {
+  color: white;
+  font-size: 2rem;
+  text-decoration-thickness: 0.1rem;
+  text-underline-offset: 0.4rem;
+  text-decoration-color: #ffc107;
+}
+
+.project__links__github,
+.project__links__live {
+  position: absolute;
+  transition-duration: 0.4s;
+}
+
+.project__links__github {
+  top: -3.2rem;
+  right: 1.2rem;
+}
+
+.project__links__live {
+  top: -3.2rem;
+  left: 1.2rem;
+}
+
+.project:hover .project__links__github,
+.project:hover .project__links__live {
+  transform: translateY(4.3rem);
+  transition-duration: 0.4s;
+}
+
+.project__links__github:hover svg path,
+.project__links__live:hover svg path {
+  fill: #ffc107;
+}
