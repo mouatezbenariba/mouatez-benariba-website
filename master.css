@@ -301,6 +301,18 @@ p.footer__copyright {
   .container {
     width: 980px;
   }
+
+  .main-figure__spider-octocat {
+    display: none;
+  }
+
+  .showcase__projects .project {
+    flex-basis: calc((990px - 35px) / 3);
+  }
+
+  .illustration__figure img {
+    width: 15rem;
+  }
 }
 
 @media screen and (width >= 1200px) {
