@@ -314,6 +314,7 @@ p.footer__copyright {
   }
 
   section.main-info {
+    text-align: center;
     flex-direction: column-reverse;
   }
 
@@ -354,6 +355,7 @@ p.footer__copyright {
   }
 
   section.main-info {
+    text-align: initial;
     flex-direction: row;
   }
 
