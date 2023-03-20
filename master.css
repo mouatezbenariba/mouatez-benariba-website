@@ -323,6 +323,7 @@ p.footer__copyright {
 
   .showcase__projects .project {
     flex-basis: calc((990px - 64px) / 3);
+    height: 14rem;
   }
 
   .illustration__figure img {
