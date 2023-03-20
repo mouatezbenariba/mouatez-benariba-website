@@ -261,7 +261,6 @@ footer .container {
 }
 
 p.footer__copyright {
-  flex-basis: 100%;
   margin-left: 1rem;
 }
 
@@ -347,6 +346,10 @@ p.footer__copyright {
   .footer__links svg {
     width: 1.7rem;
   }
+
+  p.footer__copyright {
+    flex-basis: 41rem;
+  }
 }
 
 @media screen and (width >= 992px) {
@@ -383,6 +386,10 @@ p.footer__copyright {
 
   .footer__links svg {
     width: 2rem;
+  }
+
+  p.footer__copyright {
+    flex-basis: 100%;
   }
 }
 
