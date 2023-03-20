@@ -301,6 +301,18 @@ p.footer__copyright {
     width: 750px;
   }
 
+  h1 {
+    font-size: 3rem;
+  }
+
+  h1 + span {
+    font-size: 2rem;
+  }
+
+  section.main-info p {
+    font-size: 1.7rem;
+  }
+
   section.main-info {
     flex-direction: column-reverse;
   }
@@ -341,20 +353,8 @@ p.footer__copyright {
     width: 980px;
   }
 
-  h1 {
-    font-size: 3rem;
-  }
-
-  h1 + span {
-    font-size: 2rem;
-  }
-
   section.main-info {
     flex-direction: row;
-  }
-
-  section.main-info p {
-    font-size: 1.7rem;
   }
 
   .figure {
