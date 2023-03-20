@@ -100,17 +100,16 @@ section.main-info {
 h1 {
   font-family: 'Cabinet Grotesk', sans-serif;
   color: #fff;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 section.main-info h1 {
   margin: 1rem;
-  width: 47rem;
 }
 
 h1 + span {
   font-family: 'Cabinet Grotesk', sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 300;
   margin: -1.3rem 1rem 1rem;
   color: #ffc107;
@@ -120,7 +119,7 @@ h1 + span {
 section.main-info p {
   font-family: 'Cabinet Grotesk', sans-serif;
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.7rem;
   margin: 1rem;
   width: 40rem;
 }
@@ -145,6 +144,10 @@ figure {
   left: 41.6rem;
   top: 6.8rem;
   width: 11rem;
+}
+
+.showcase {
+  margin: 1rem;
 }
 
 .showcase__tagline h1 {
@@ -302,12 +305,24 @@ p.footer__copyright {
     width: 980px;
   }
 
+  h1 {
+    font-size: 3rem;
+  }
+
+  h1 + span {
+    font-size: 2rem;
+  }
+
+  section.main-info p {
+    font-size: 1.7rem;
+  }
+
   .main-figure__spider-octocat {
     display: none;
   }
 
   .showcase__projects .project {
-    flex-basis: calc((990px - 35px) / 3);
+    flex-basis: calc((990px - 64px) / 3);
   }
 
   .illustration__figure img {
