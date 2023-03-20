@@ -327,7 +327,7 @@ p.footer__copyright {
   }
 
   .footer__links svg {
-    width: 2.3rem;
+    width: 2rem;
   }
 }
 
@@ -338,6 +338,10 @@ p.footer__copyright {
 
   h1 {
     font-size: 4rem;
+  }
+
+  section.main-info h1 {
+    width: 48rem;
   }
 
   h1 + span {
