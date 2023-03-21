@@ -302,6 +302,10 @@ footer .container {
     margin: 0 0 1rem 0;
   }
 
+  .nav-links li:last-child {
+    margin-right: 0;
+  }
+
   h1 {
     font-size: 3rem;
   }
