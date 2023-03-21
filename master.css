@@ -325,7 +325,7 @@ footer .container {
   }
 
   .main-figure__personal {
-    width: 25rem;
+    width: 100%;
     object-position: center center;
   }
 
@@ -530,6 +530,7 @@ footer .container {
   }
 
   section.main-info p {
+    width: 40rem;
     font-size: 2rem;
   }
 
