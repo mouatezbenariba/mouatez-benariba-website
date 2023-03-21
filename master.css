@@ -367,6 +367,7 @@ footer .container {
 
   p.footer__copyright {
     flex-basis: auto;
+    text-align: center;
   }
 }
 
