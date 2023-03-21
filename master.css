@@ -394,7 +394,7 @@ footer .container {
   }
 
   .main-figure__personal {
-    width: 25rem;
+    width: 100%;
     object-position: center center;
   }
 
