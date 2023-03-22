@@ -169,41 +169,25 @@ figure {
   font-weight: 300;
   overflow: hidden;
   border-radius: 0.5rem;
+  transition-duration: 0.4s;
 }
 
 .showcase__projects .project:hover {
   box-shadow: inset 0 0 15px 0px #ff5722;
-  font-weight: 400;
-  transition-duration: 0.4s;
-}
-
-.showcase__projects .project:hover .illustration__figure img {
-  transform: scale(1);
-  margin-top: 4rem;
-  transition-duration: 0.4s;
-}
-
-.showcase__projects .project:hover .project__illustration {
-  flex-basis: 75%;
   transition-duration: 0.4s;
 }
 
 .project__illustration {
-  flex-basis: 70%;
+  flex-basis: 75%;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition-duration: 0.4s;
-}
-
-.illustration__figure img {
-  transform: scale(1.2);
-  transition-duration: 0.4s;
 }
 
 /* adjust the position for personal website logo */
 .project.personal-website .illustration__figure img,
-.project.personal-blog .illustration__figure img {
+.project.personal-blog .illustration__figure img,
+.project.elzero-frontend-challenges .illustration__figure img {
   margin-top: 3rem;
 }
 
@@ -222,24 +206,19 @@ figure {
 }
 
 .project__links__github {
-  top: -3.2rem;
-  right: 1.2rem;
+  top: 1.5rem;
+  right: 1.5rem;
 }
 
 .project__links__live {
-  top: -3.2rem;
-  left: 1.2rem;
-}
-
-.project:hover .project__links__github,
-.project:hover .project__links__live {
-  transform: translateY(4.3rem);
-  transition-duration: 0.4s;
+  top: 1.5rem;
+  left: 1.5rem;
 }
 
 .project__links__github:hover svg path,
 .project__links__live:hover svg path {
   fill: #ffc107;
+  transition-duration: 0.4s;
 }
 
 /* --------------- */
@@ -343,6 +322,10 @@ footer .container {
     align-items: center;
   }
 
+  .showcase__projects svg {
+    width: 2.2rem;
+  }
+
   .showcase__projects .project {
     width: 17rem;
     height: 12rem;
@@ -350,10 +333,6 @@ footer .container {
 
   .project__links__description {
     font-size: 1.5rem;
-  }
-
-  .illustration__figure img {
-    width: 12rem;
   }
 
   footer .container {
@@ -413,6 +392,10 @@ footer .container {
     align-items: center;
   }
 
+  .showcase__projects svg {
+    width: 2.2rem;
+  }
+
   .showcase__projects .project {
     width: 19rem;
     height: 12rem;
@@ -420,10 +403,6 @@ footer .container {
 
   .project__links__description {
     font-size: 1.5rem;
-  }
-
-  .illustration__figure img {
-    width: 12rem;
   }
 
   footer .container {
@@ -495,6 +474,10 @@ footer .container {
     object-position: initial;
   }
 
+  .showcase__projects svg {
+    width: 3rem;
+  }
+
   .showcase__projects .project {
     flex-basis: calc((990px - 64px) / 3);
     height: 14rem;
@@ -502,10 +485,6 @@ footer .container {
 
   .project__links__description {
     font-size: 1.7rem;
-  }
-
-  .illustration__figure img {
-    width: 15rem;
   }
 
   .footer__links svg {
@@ -546,10 +525,6 @@ footer .container {
   .showcase__projects .project {
     flex-basis: calc((1200px - 86px) / 3);
     height: 17rem;
-  }
-
-  .illustration__figure img {
-    width: 18rem;
   }
 
   .footer__links svg {
