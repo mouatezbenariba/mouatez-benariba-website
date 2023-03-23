@@ -8,6 +8,7 @@
 /* Remove body margin */
 html {
   font-family: 'Cabinet Grotesk', sans-serif;
+  text-rendering: optimizeSpeed;
 }
 
 body {
