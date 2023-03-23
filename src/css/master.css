@@ -6,6 +6,10 @@
 /* --------------- */
 
 /* Remove body margin */
+html {
+  font-family: 'Cabinet Grotesk', sans-serif;
+}
+
 body {
   margin: 0;
 }
@@ -94,7 +98,6 @@ section.main-info {
 
 /* element header */
 h1 {
-  font-family: 'Cabinet Grotesk', sans-serif;
   color: #fff;
 }
 
@@ -103,7 +106,6 @@ section.main-info h1 {
 }
 
 h1 + span {
-  font-family: 'Cabinet Grotesk', sans-serif;
   font-weight: 300;
   margin: -1.3rem 1rem 1rem;
   color: #ffc107;
@@ -111,7 +113,6 @@ h1 + span {
 }
 
 section.main-info p {
-  font-family: 'Cabinet Grotesk', sans-serif;
   color: #fff;
   font-size: 2em;
   margin: 1rem;
@@ -160,7 +161,6 @@ figure {
   background-color: #7a1f1f;
   background-image: url(/assets/images/elements/grains/bg-grain-dark.webp);
   background-size: 350px auto;
-  font-family: 'Cabinet Grotesk', sans-serif;
   font-weight: 300;
   overflow: hidden;
   border-radius: 0.5rem;
