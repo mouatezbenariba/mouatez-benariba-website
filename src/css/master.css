@@ -62,7 +62,6 @@ header .container {
 nav .nav-links {
   display: flex;
   justify-content: space-evenly;
-  font-family: 'Inter', sans-serif;
 }
 
 .nav-links li {
@@ -222,7 +221,6 @@ figure {
 
 footer {
   padding: 1.5rem 0;
-  font-family: 'Inter', sans-serif;
   background-color: #7a1f1f;
   background-image: url(/assets/images/elements/grains/bg-grain-dark.webp);
   background-size: 350px auto;
