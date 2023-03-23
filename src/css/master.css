@@ -55,11 +55,6 @@ header .container {
   flex-direction: initial;
 }
 
-header .logo {
-  margin: 0 0 0 1rem;
-  font-size: 1.5rem;
-}
-
 nav .nav-links {
   display: flex;
   justify-content: space-evenly;
@@ -275,10 +270,6 @@ footer .container {
 
   header .container {
     flex-direction: column;
-  }
-
-  header .logo {
-    margin: 0 0 1rem 0;
   }
 
   .nav-links li:last-child {
