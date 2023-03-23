@@ -55,6 +55,7 @@ header {
 header .logo {
   width: 200px;
   height: 30px;
+  margin-bottom: 1rem;
 }
 
 header .logo img {
