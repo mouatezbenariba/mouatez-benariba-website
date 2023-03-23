@@ -304,6 +304,10 @@ footer .container {
     margin: auto;
   }
 
+  .main-figure {
+    overflow: hidden;
+  }
+
   .main-figure__personal {
     width: auto;
     object-position: center center;
