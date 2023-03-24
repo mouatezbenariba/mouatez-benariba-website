@@ -176,6 +176,13 @@ figure {
   transition-duration: 0.4s;
 }
 
+.showcase__projects .figure svg {
+  display: inline-block;
+  width: 12rem;
+  position: relative;
+  top: 2rem;
+}
+
 .showcase__projects .project:hover {
   box-shadow: inset 0 0 15px 0px #ff5722;
   transition-duration: 0.4s;
