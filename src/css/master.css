@@ -176,7 +176,7 @@ figure {
   transition-duration: 0.4s;
 }
 
-.showcase__projects .figure svg {
+.showcase__projects figure svg {
   display: inline-block;
   width: 12rem;
   position: relative;
