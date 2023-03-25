@@ -1,4 +1,17 @@
 :root {
+  /* Red */
+  --red-100: #ffb2b2;
+  --red-200: #9b2727;
+  --red-300: #7a1f1f;
+
+  /* Gray */
+  --gray-100: #ffffff;
+
+  /* Khaki */
+  --khaki-100: #ffc107;
+
+  /* Vermilion */
+  --vermilion-100: #ff5722;
 }
 
 /* --------------- */
