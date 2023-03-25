@@ -9,6 +9,7 @@
 
   /* Khaki */
   --khaki-100: #ffc107;
+  --khaki-200: rgba(255, 193, 7, 0.69);
 
   /* Vermilion */
   --vermilion-100: #ff5722;
@@ -59,8 +60,8 @@ li {
 /* --------------- */
 header {
   padding: 1.5rem 0;
-  color: #fff;
-  background-color: #7a1f1f;
+  color: var(--gray-100);
+  background-color: var(--red-300);
   background-image: url(/assets/images/elements/grains/bg-grain-dark.webp);
   background-size: 350px auto;
 }
@@ -92,12 +93,12 @@ nav .nav-links {
 }
 
 .nav-links a {
-  color: #fff;
+  color: var(--gray-100);
   text-decoration: none;
 }
 
 .nav-links a:hover {
-  text-decoration: underline solid #ffb2b2 0.1rem;
+  text-decoration: underline solid var(--red-100) 0.1rem;
 }
 
 /* --------------- */
@@ -105,7 +106,7 @@ nav .nav-links {
 /* --------------- */
 main {
   padding: 3rem 0;
-  background-color: #9b2727;
+  background-color: var(--red-200);
   background-image: url(/assets/images/elements/grains/bg-grain-dark.webp);
   background-size: 350px auto;
   filter: hue-rotate(1);
@@ -120,7 +121,7 @@ section.main-info {
 
 /* element header */
 h1 {
-  color: #fff;
+  color: var(--gray-100);
 }
 
 section.main-info h1 {
@@ -130,18 +131,18 @@ section.main-info h1 {
 h1 + span {
   font-weight: 300;
   margin: -1.3rem 1rem 1rem;
-  color: #ffc107;
+  color: var(--khaki-100);
   display: inline-block;
 }
 
 section.main-info p {
-  color: #fff;
+  color: var(--gray-100);
   font-size: 2em;
   margin: 1rem;
 }
 
 .header__key {
-  text-decoration: underline solid #ffc107b0 0.3rem;
+  text-decoration: underline solid var(--khaki-200) 0.3rem;
   text-underline-offset: 0.3rem;
 }
 
@@ -180,7 +181,7 @@ figure {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: #7a1f1f;
+  background-color: var(--red-300);
   background-image: url(/assets/images/elements/grains/bg-grain-dark.webp);
   background-size: 350px auto;
   font-weight: 300;
@@ -197,7 +198,7 @@ figure {
 }
 
 .showcase__projects .project:hover {
-  box-shadow: inset 0 0 15px 0px #ff5722;
+  box-shadow: inset 0 0 15px 0px var(--vermilion-100);
   transition-duration: 0.4s;
 }
 
@@ -220,7 +221,7 @@ figure {
   font-size: 1.7rem;
   text-decoration-thickness: 0.1rem;
   text-underline-offset: 0.4rem;
-  text-decoration-color: #ffc107;
+  text-decoration-color: var(--khaki-100);
 }
 
 .project__links__github,
@@ -241,7 +242,7 @@ figure {
 
 .project__links__github:hover svg path,
 .project__links__live:hover svg path {
-  fill: #ffc107;
+  fill: var(--khaki-100);
   transition-duration: 0.4s;
 }
 
@@ -251,7 +252,7 @@ figure {
 
 footer {
   padding: 1.5rem 0;
-  background-color: #7a1f1f;
+  background-color: var(--red-300);
   background-image: url(/assets/images/elements/grains/bg-grain-dark.webp);
   background-size: 350px auto;
 }
@@ -259,7 +260,7 @@ footer {
 footer .container {
   display: flex;
   justify-content: space-between;
-  color: #fff;
+  color: var(--gray-100);
 }
 
 .footer__links li:not(:last-child) {
@@ -275,11 +276,11 @@ footer .container {
 }
 
 .footer__links svg {
-  fill: #fff;
+  fill: var(--gray-100);
 }
 
 .footer__links svg:hover {
-  fill: #ffc107;
+  fill: var(--khaki-100);
 }
 
 .footer__links {
