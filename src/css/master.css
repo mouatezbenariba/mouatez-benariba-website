@@ -55,6 +55,11 @@ li {
   list-style: none;
 }
 
+/* reset links style */
+a {
+  text-decoration: none;
+}
+
 /* --------------- */
 /*  Utility Class  */
 /* --------------- */
@@ -66,7 +71,58 @@ li {
 /* --------------- */
 /*  Header  Style  */
 /* --------------- */
-header {
+.header {
+  background-color: var(--red-300);
+  padding: 1.5rem;
+}
+
+.header__nav li {
+  margin: 0 0.5rem;
+}
+
+.header__nav a {
+  color: var(--gray-100);
+}
+
+@media screen and (min-width: 320px) {
+  .header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header__nav .nav-links {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .header .container {
+    flex-direction: row;
+    justify-content: space-between;
+    width: calc(100vw - 50px);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header .container {
+    width: 750px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header .container {
+    width: 980px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header .container {
+    width: 1170px;
+  }
+}
+
+/* header {
   padding: 1.5rem 0;
   color: var(--gray-100);
   background-color: var(--red-300);
@@ -107,12 +163,12 @@ nav .nav-links {
 
 .nav-links a:hover {
   text-decoration: underline solid var(--red-100) 0.1rem;
-}
+} */
 
 /* --------------- */
 /*  Main Style  */
 /* --------------- */
-main {
+/* main {
   padding: 3rem 0;
   background-color: var(--red-200);
   background-image: url(/assets/images/elements/grains/bg-grain-dark.webp);
@@ -126,9 +182,9 @@ section.main-info {
   justify-content: space-between;
   align-items: center;
 }
-
+ */
 /* element header */
-h1 {
+/* h1 {
   color: var(--gray-100);
 }
 
@@ -152,10 +208,10 @@ section.main-info p {
 .header__key {
   text-decoration: underline solid var(--khaki-200) 0.3rem;
   text-underline-offset: 0.3rem;
-}
+} */
 
 /* element */
-figure {
+/* figure {
   margin: 1rem;
 }
 
@@ -216,9 +272,9 @@ figure {
   align-items: center;
   justify-content: center;
 }
-
+ */
 /* adjust the position for personal website logo */
-.project.personal-website .illustration__figure img,
+/* .project.personal-website .illustration__figure img,
 .project.personal-blog .illustration__figure img,
 .project.elzero-frontend-challenges .illustration__figure img {
   margin-top: 3rem;
@@ -253,12 +309,12 @@ figure {
   fill: var(--khaki-100);
   transition-duration: 0.4s;
 }
-
+ */
 /* --------------- */
 /*  Footer  Style  */
 /* --------------- */
 
-footer {
+/* footer {
   padding: 1.5rem 0;
   background-color: var(--red-300);
   background-image: url(/assets/images/elements/grains/bg-grain-dark.webp);
@@ -296,11 +352,11 @@ footer .container {
   justify-content: flex-end;
   align-items: center;
 }
-
+ */
 /* --------------- */
 /*  Media Queries  */
 /* --------------- */
-@media screen and (width <= 480px) {
+/* @media screen and (width <= 480px) {
   .container {
     width: calc(100vw - 50px);
   }
@@ -564,4 +620,4 @@ footer .container {
   .footer__links svg {
     width: 2.3rem;
   }
-}
+} */
