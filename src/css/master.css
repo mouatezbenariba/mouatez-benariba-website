@@ -20,12 +20,9 @@
 /* --------------- */
 
 /* Remove body margin */
-html {
+body {
   font-family: 'Cabinet Grotesk', sans-serif;
   text-rendering: optimizeSpeed;
-}
-
-body {
   margin: 0;
 }
 
