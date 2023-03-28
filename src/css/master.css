@@ -4,7 +4,7 @@
   --font-size-m: 1.7rem;
   --font-size-l: 2rem;
   --font-size-xl: 3rem;
-  --font-size-xxl: 5rem;
+  --font-size-xxl: 4rem;
 
   /*      Font Weight      */
   --font-weight-300: 300;
@@ -226,7 +226,7 @@ figure {
 
 .project__links__description {
   color: white;
-  font-size: 1.7rem;
+  font-size: var(--font-size-m);
   text-decoration-thickness: 0.1rem;
   text-underline-offset: 0.4rem;
   text-decoration-color: var(--khaki-100);
@@ -314,15 +314,15 @@ footer .container {
   }
 
   h1 {
-    font-size: 3rem;
+    font-size: var(--font-size-xl);
   }
 
   h1 + span {
-    font-size: 2rem;
+    font-size: var(--font-size-l);
   }
 
   section.main-info p {
-    font-size: 1.7rem;
+    font-size: var(--font-size-m);
     width: initial;
   }
 
@@ -366,7 +366,7 @@ footer .container {
   }
 
   .project__links__description {
-    font-size: 1.5rem;
+    font-size: var(--font-size-s);
   }
 
   footer .container {
@@ -390,15 +390,15 @@ footer .container {
   }
 
   h1 {
-    font-size: 3rem;
+    font-size: var(--font-size-xl);
   }
 
   h1 + span {
-    font-size: 2rem;
+    font-size: var(--font-size-l);
   }
 
   section.main-info p {
-    font-size: 1.7rem;
+    font-size: var(--font-size-m);
     width: initial;
   }
 
@@ -436,7 +436,7 @@ footer .container {
   }
 
   .project__links__description {
-    font-size: 1.5rem;
+    font-size: var(--font-size-s);
   }
 
   footer .container {
@@ -518,7 +518,7 @@ footer .container {
   }
 
   .project__links__description {
-    font-size: 1.7rem;
+    font-size: var(--font-size-m);
   }
 
   .footer__links svg {
@@ -536,7 +536,7 @@ footer .container {
   }
 
   h1 {
-    font-size: 4rem;
+    font-size: var(--font-size-xxl);
   }
 
   section.main-info h1 {
@@ -544,12 +544,12 @@ footer .container {
   }
 
   h1 + span {
-    font-size: 3rem;
+    font-size: var(--font-size-xl);
   }
 
   section.main-info p {
     width: 40rem;
-    font-size: 2rem;
+    font-size: var(--font-size-l);
   }
 
   .main-figure__spider-octocat {
