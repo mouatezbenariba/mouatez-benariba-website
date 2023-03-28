@@ -6,6 +6,9 @@
   --font-size-xl: 3rem;
   --font-size-xxl: 5rem;
 
+  /*      Font Weight      */
+  --font-weight-300: 300;
+
   /*      Colors      */
   /* Red */
   --red-100: #ffb2b2;
