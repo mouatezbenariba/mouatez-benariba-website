@@ -1,4 +1,12 @@
 :root {
+  /*      Font Size      */
+  --font-size-s: 1.5rem;
+  --font-size-m: 1.7rem;
+  --font-size-l: 2rem;
+  --font-size-xl: 3rem;
+  --font-size-xxl: 5rem;
+
+  /*      Colors      */
   /* Red */
   --red-100: #ffb2b2;
   --red-200: #9b2727;
