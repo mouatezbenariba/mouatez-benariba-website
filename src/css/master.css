@@ -32,9 +32,10 @@
 
 /* Remove body margin */
 body {
-  font-family: 'Cabinet Grotesk', sans-serif;
-  text-rendering: optimizeSpeed;
   margin: 0;
+  font-family: 'Cabinet Grotesk', sans-serif;
+  color: var(--gray-100);
+  text-rendering: optimizeSpeed;
 }
 
 /*  Box sizing */
