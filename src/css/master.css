@@ -164,6 +164,11 @@ main {
 
 .showcase__projects svg {
   width: 2.2rem;
+  transition-duration: 0.4s;
+}
+
+.showcase__projects svg:hover path {
+  fill: var(--khaki-100);
 }
 
 .showcase__projects figure svg {
