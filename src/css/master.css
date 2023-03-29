@@ -58,7 +58,13 @@ li {
 
 /* reset links style */
 a {
+  color: var(--gray-100);
   text-decoration: none;
+}
+
+/* reset figure margin */
+figure {
+  margin: 0;
 }
 
 /* --------------- */
