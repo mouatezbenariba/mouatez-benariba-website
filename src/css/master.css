@@ -134,38 +134,28 @@ main {
   display: none;
 }
 
+/* --------------------- */
+/*   Main Showcase Style */
+/* --------------------- */
+
 .showcase {
-  margin: 1rem;
+  text-align: center;
 }
 
 .showcase__tagline h1 {
-  text-align: center;
-}
-
-.showcase__projects {
-  display: flex;
-  justify-content: space-between;
+  font-size: var(--font-size-xl);
 }
 
 .showcase__projects .project {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+  width: 17rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
   background-color: var(--red-300);
   background-image: url(/assets/images/elements/grains/bg-grain-dark.webp);
   background-size: 350px auto;
-  font-weight: 300;
-  overflow: hidden;
-  border-radius: 0.5rem;
+  font-weight: var(--font-weight-300);
   transition-duration: 0.4s;
-}
-
-.showcase__projects figure svg {
-  display: inline-block;
-  width: 12rem;
-  position: relative;
-  top: 2rem;
+  overflow: hidden;
 }
 
 .showcase__projects .project:hover {
@@ -173,26 +163,19 @@ main {
   transition-duration: 0.4s;
 }
 
-.project__illustration {
-  flex-basis: 75%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
- */
-/* adjust the position for personal website logo */
-/* .project.personal-website .illustration__figure img,
-.project.personal-blog .illustration__figure img,
-.project.elzero-frontend-challenges .illustration__figure img {
-  margin-top: 3rem;
+.showcase__projects svg {
+  width: 2.2rem;
 }
 
-.project__links__description {
-  color: white;
-  font-size: var(--font-size-m);
-  text-decoration-thickness: 0.1rem;
-  text-underline-offset: 0.4rem;
-  text-decoration-color: var(--khaki-100);
+.showcase__projects figure svg {
+  position: relative;
+  top: 2rem;
+  width: 12rem;
+}
+
+.showcase__projects figure img {
+  position: relative;
+  top: 1.3rem;
 }
 
 .project__links__github,
@@ -201,25 +184,21 @@ main {
   transition-duration: 0.4s;
 }
 
-.project__links__github {
-  top: 1.5rem;
-  right: 1.5rem;
-}
-
 .project__links__live {
   top: 1.5rem;
   left: 1.5rem;
 }
 
-.project__links__github:hover svg path,
-.project__links__live:hover svg path {
-  fill: var(--khaki-100);
-  transition-duration: 0.4s;
+.project__links__github {
+  top: 1.5rem;
+  right: 1.5rem;
 }
- */
-/* --------------- */
-/*  Footer  Style  */
-/* --------------- */
+
+.project__links__description {
+  font-size: var(--font-size-s);
+  text-decoration: underline solid var(--khaki-100) 0.1rem;
+  text-underline-offset: 0.4rem;
+}
 
 /* footer {
   padding: 1.5rem 0;
