@@ -295,17 +295,16 @@ p.footer__copyright {
   }
 }
 
-@media screen and (width >= 480px) {
+@media screen and (min-width: 480px) {
   .container {
     width: calc(100vw - 50px);
   }
 
-  h1 {
-    font-size: var(--font-size-xl);
+  /* HEADER */
+  .header .container {
+    flex-direction: row;
+    justify-content: space-between;
   }
-
-  h1 + span {
-    font-size: var(--font-size-l);
   }
 
   section.main-info p {
