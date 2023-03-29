@@ -81,7 +81,6 @@ figure {
 .header {
   padding: 1.5rem;
   background-color: var(--red-300);
-  padding: 1.5rem;
 }
 
 .header__nav li {
@@ -94,7 +93,7 @@ figure {
 
 .header__nav a:hover {
   text-decoration: underline solid var(--red-100) 0.1rem;
-  }
+}
 
 /* ----------------- */
 /*  Main Info Style  */
@@ -305,7 +304,7 @@ p.footer__copyright {
     flex-direction: row;
     justify-content: space-between;
   }
-  }
+}
 
 @media screen and (min-width: 768px) {
   .container {
@@ -322,7 +321,7 @@ p.footer__copyright {
     height: 12rem;
     flex-basis: 32%;
   }
-  }
+}
 
 @media screen and (min-width: 992px) {
   .container {
@@ -335,7 +334,7 @@ p.footer__copyright {
     justify-content: space-around;
     text-align: left;
   }
-  }
+}
 
 @media screen and (min-width: 1200px) {
   .container {
@@ -372,4 +371,4 @@ p.footer__copyright {
   .showcase__tagline h1 {
     font-size: var(--font-size-xxl);
   }
-  }
+}
