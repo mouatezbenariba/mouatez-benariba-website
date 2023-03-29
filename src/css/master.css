@@ -239,87 +239,59 @@ p.footer__copyright {
 /* --------------- */
 /*  Media Queries  */
 /* --------------- */
-/* @media screen and (width <= 480px) {
-  .container {
-    width: calc(100vw - 50px);
-  }
 
-  header .container {
+@media screen and (min-width: 320px) {
+  /* HEADER */
+  .header .container {
+    display: flex;
     flex-direction: column;
-  }
-
-  .nav-links li:last-child {
-    margin-right: 0;
-  }
-
-  h1 {
-    font-size: var(--font-size-xl);
-  }
-
-  h1 + span {
-    font-size: var(--font-size-l);
-  }
-
-  section.main-info p {
-    font-size: var(--font-size-m);
-    width: initial;
-  }
-
-  section.main-info {
-    text-align: center;
-    flex-direction: column-reverse;
-  }
-
-  .figure {
-    margin: auto;
-  }
-
-  .main-figure {
-    overflow: hidden;
-    width: 290px;
-    height: 230px;
-  }
-
-  .main-figure__personal {
-    width: auto;
-    object-position: center center;
-  }
-
-  .main-figure__spider-octocat {
-    display: none;
-  }
-
-  .showcase__projects {
-    flex-direction: column;
-    height: 38rem;
     align-items: center;
   }
 
-  .showcase__projects svg {
-    width: 2.2rem;
+  .header__nav .nav-links {
+    display: flex;
+  }
+
+  /* MAIN INFO */
+  .main-info {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  /* MAIN SHOWCASE */
+  .showcase__projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .showcase__projects .project {
-    width: 17rem;
-    height: 12rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 12rem;
   }
 
-  .project__links__description {
-    font-size: var(--font-size-s);
+  .project__illustration {
+    flex-basis: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
-  footer .container {
+  /* FOOTER */
+  .footer .container {
+    display: flex;
+    justify-content: space-between;
     flex-direction: column-reverse;
     align-items: center;
   }
 
-  .footer__links svg {
-    width: 1.7rem;
-  }
-
-  p.footer__copyright {
-    flex-basis: auto;
-    text-align: center;
+  .footer__links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
   }
 }
 
