@@ -329,16 +329,15 @@ p.footer__copyright {
     width: 980px;
   }
 
-  section.main-info {
-    text-align: initial;
+  /* MAIN INFO */
+  .main-info {
     flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+  }
   }
 
-  .figure {
-    margin: 1rem;
-  }
-
-  .main-figure__personal {
+@media screen and (min-width: 1200px) {
     width: 100%;
     object-position: initial;
   }
