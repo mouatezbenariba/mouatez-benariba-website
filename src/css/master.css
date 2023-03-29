@@ -79,6 +79,7 @@ figure {
 /*  Header  Style  */
 /* --------------- */
 .header {
+  padding: 1.5rem;
   background-color: var(--red-300);
   padding: 1.5rem;
 }
@@ -91,11 +92,8 @@ figure {
   color: var(--gray-100);
 }
 
-@media screen and (min-width: 320px) {
-  .header .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.header__nav a:hover {
+  text-decoration: underline solid var(--red-100) 0.1rem;
   }
 
   .header__nav .nav-links {
