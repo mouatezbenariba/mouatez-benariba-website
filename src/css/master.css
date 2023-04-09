@@ -84,8 +84,19 @@ figure {
 /* --------------- */
 /*  Header  Style  */
 /* --------------- */
+
 .header {
   padding: 1.5rem;
+}
+
+.header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__nav .nav-links {
+  display: flex;
 }
 
 .header__nav li {
@@ -110,6 +121,9 @@ main {
 }
 
 .main-info {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
   text-align: center;
 }
 
@@ -150,13 +164,30 @@ main {
   font-size: var(--font-size-xl);
 }
 
+.showcase__projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .showcase__projects .project {
-  width: 17rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 12rem;
+  width: 15rem;
   margin-bottom: 1rem;
   border-radius: 0.5rem;
   font-weight: var(--font-weight-300);
   transition-duration: 0.4s;
   overflow: hidden;
+}
+
+.project__illustration {
+  flex-basis: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .showcase__projects .project:hover {
@@ -214,9 +245,22 @@ main {
   padding: 1.5rem;
 }
 
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
 p.footer__copyright {
   margin-bottom: 0;
   text-align: center;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .footer__links li:not(:last-child) {
@@ -244,57 +288,9 @@ p.footer__copyright {
 /* --------------- */
 
 @media screen and (min-width: 320px) {
-  /* HEADER */
-  .header .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .header__nav .nav-links {
-    display: flex;
-  }
-
-  /* MAIN INFO */
-  .main-info {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-
   /* MAIN SHOWCASE */
-  .showcase__projects {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
   .showcase__projects .project {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    flex-basis: 12rem;
-  }
-
-  .project__illustration {
-    flex-basis: 75%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  /* FOOTER */
-  .footer .container {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-
-  .footer__links {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    width: 15rem;
   }
 }
 
