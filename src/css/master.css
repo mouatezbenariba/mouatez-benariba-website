@@ -75,14 +75,17 @@ figure {
   margin: auto;
 }
 
+.grain-bg {
+  background-color: var(--red-300);
+  background-image: url(/assets/images/elements/grains/bg-grain-dark.webp);
+  background-size: 350px auto;
+}
+
 /* --------------- */
 /*  Header  Style  */
 /* --------------- */
 .header {
   padding: 1.5rem;
-  background-color: var(--red-300);
-  background-image: url(/assets/images/elements/grains/bg-grain-dark.webp);
-  background-size: 350px auto;
 }
 
 .header__nav li {
@@ -151,9 +154,6 @@ main {
   width: 17rem;
   margin-bottom: 1rem;
   border-radius: 0.5rem;
-  background-color: var(--red-300);
-  background-image: url(/assets/images/elements/grains/bg-grain-dark.webp);
-  background-size: 350px auto;
   font-weight: var(--font-weight-300);
   transition-duration: 0.4s;
   overflow: hidden;
@@ -212,9 +212,6 @@ main {
 
 .footer {
   padding: 1.5rem;
-  background-color: var(--red-300);
-  background-image: url(/assets/images/elements/grains/bg-grain-dark.webp);
-  background-size: 350px auto;
 }
 
 p.footer__copyright {
