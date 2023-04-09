@@ -183,12 +183,12 @@ main {
 }
 
 .project__links__github,
-.project__links__live {
+.project__links__description {
   position: absolute;
   transition-duration: 0.4s;
 }
 
-.project__links__live {
+.project__links__description {
   top: 1.5rem;
   left: 1.5rem;
 }
@@ -198,7 +198,7 @@ main {
   right: 1.5rem;
 }
 
-.project__links__description {
+.project__links__live {
   font-size: var(--font-size-s);
   text-decoration: underline solid var(--khaki-100) 0.1rem;
   text-underline-offset: 0.4rem;
