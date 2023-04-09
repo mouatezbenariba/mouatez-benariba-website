@@ -118,7 +118,7 @@ figure {
 /* --------------- */
 
 .header {
-  padding: 1.5rem;
+  padding: 1.5rem 0;
 }
 
 .header__nav li {
@@ -138,7 +138,7 @@ figure {
 /* ----------------- */
 
 main {
-  padding: 4rem 2rem;
+  padding: 4rem 0;
   background-color: var(--red-200);
 }
 
@@ -242,7 +242,7 @@ main {
 /* -------------- */
 
 .footer {
-  padding: 1.5rem;
+  padding: 1.5rem 0;
 }
 
 p.footer__copyright {
