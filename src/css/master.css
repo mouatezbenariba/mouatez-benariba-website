@@ -81,6 +81,8 @@ figure {
 .header {
   padding: 1.5rem;
   background-color: var(--red-300);
+  background-image: url(/assets/images/elements/grains/bg-grain-dark.webp);
+  background-size: 350px auto;
 }
 
 .header__nav li {
