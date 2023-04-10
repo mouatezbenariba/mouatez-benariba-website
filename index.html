@@ -283,9 +283,13 @@
             <h1>Projects</h1>
           </div>
           <div class="showcase__projects dp-fx fx-dr__cl fx-al__cn">
-            <div class="project personal-website dp-fx fx-dr__cl grain-bg">
+            <div
+              class="project personal-website dp-fx fx-dr__cl grain-bg"
+              itemscope
+              itemtype="https://schema.org/WebSite"
+            >
               <div class="project__illustration dp-fx fx-al__cn fx-js__cn">
-                <figure class="illustration__figure">
+                <figure class="illustration__figure" itemprop="image">
                   <svg
                     width="142.08118mm"
                     height="25.445021mm"
@@ -333,7 +337,12 @@
                 </figure>
               </div>
               <div class="project__links">
-                <a href="mouatezbenariba.me" target="_blank" class="project__links__live"
+                <a
+                  href="mouatezbenariba.me"
+                  target="_blank"
+                  class="project__links__live"
+                  itemprop="url"
+                  href="mouatezbenariba.me"
                   >Personal Website</a
                 >
                 <a
@@ -342,6 +351,8 @@
                   rel="noopener"
                   class="project__links__github"
                   aria-label="Mouatez Benariba personal website Github repository"
+                  itemprop="discussionUrl"
+                  href="https://github.com/mouatezbenariba/mouatez-benariba-website"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -361,6 +372,8 @@
                   rel="noopener"
                   class="project__links__description"
                   aria-label="Mouatez Benariba personal website Case Study"
+                  itemprop="discussionUrl"
+                  href="./src/html/case-study/personal-website.html"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
