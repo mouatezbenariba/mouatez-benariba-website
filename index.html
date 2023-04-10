@@ -131,6 +131,22 @@
       as="font"
       type="font/woff2"
     />
+    <!-- internal style -->
+    <style>
+      @media screen and (min-width: 480px) {
+        picture img {
+          width: 400px;
+          height: 403px;
+        }
+      }
+
+      @media screen and (min-width: 992px) {
+        picture img {
+          width: 314px;
+          height: 316px;
+        }
+      }
+    </style>
     <!-- main css -->
     <link rel="stylesheet" href="/src/css/master.css" />
     <title>Elmouatez Billah Benariba</title>
@@ -234,14 +250,10 @@
               <source
                 srcset="/assets/images/personal-image/personal-image-992.webp"
                 media="(min-width: 992px)"
-                width="314"
-                height="316"
               />
               <source
                 srcset="/assets/images/personal-image/personal-image-480.webp"
                 media="(min-width: 480px)"
-                width="400"
-                height="403"
               />
               <img
                 src="/assets/images/personal-image/personal-image-320.webp"
