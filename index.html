@@ -151,10 +151,10 @@
     <link rel="stylesheet" href="/src/css/master.css" />
     <title>Elmouatez Billah Benariba</title>
   </head>
-  <body>
+  <body itemscope itemtype="http://schema.org/WebSite">
     <header class="header grain-bg">
       <div class="container dp-fx fx-dr__cl fx-al__cn">
-        <div class="header__logo">
+        <div class="header__logo" itemprop="logo">
           <!-- Created with Inkscape (http://www.inkscape.org/) -->
           <svg
             width="200"
@@ -207,24 +207,38 @@
             </g>
           </svg>
         </div>
-        <nav class="header__nav">
+        <nav
+          class="header__nav"
+          itemprop="hasPart"
+          itemscope
+          itemtype="http://schema.org/WebNavigation"
+        >
           <ul class="nav-links dp-fx">
-            <li><a href="/src/html/about.html">About</a></li>
+            <li><a href="/src/html/about.html" itemprop="url">About</a></li>
             <li>
               <a
                 href="https://www.linkedin.com/in/mouatezbenariba/"
                 target="_blank"
                 rel="noopener"
+                itemprop="url"
                 >LinkedIn</a
               >
             </li>
             <li>
-              <a href="https://github.com/mouatezbenariba" target="_blank" rel="noopener"
+              <a
+                href="https://github.com/mouatezbenariba"
+                target="_blank"
+                rel="noopener"
+                itemprop="url"
                 >Github</a
               >
             </li>
             <li>
-              <a href="https://blog.mouatezbenariba.me/" target="_blank" rel="noopener"
+              <a
+                href="https://blog.mouatezbenariba.me/"
+                target="_blank"
+                rel="noopener"
+                itemprop="url"
                 >Blog</a
               >
             </li>
