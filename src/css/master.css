@@ -32,6 +32,7 @@
 
 /* Remove body margin */
 body {
+  min-height: 100vh;
   margin: 0;
   font-family: 'Cabinet Grotesk', sans-serif;
   color: var(--gray-100);
