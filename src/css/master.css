@@ -200,10 +200,6 @@ main {
   transition-duration: 0.4s;
 }
 
-.showcase__projects svg:hover path {
-  fill: var(--khaki-100);
-}
-
 .showcase__projects figure svg {
   position: relative;
   top: 2rem;
