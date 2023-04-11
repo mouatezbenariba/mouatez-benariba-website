@@ -7,7 +7,7 @@
 
     <!-- Google tag (gtag.js) -->
     <script defer src="https://www.googletagmanager.com/gtag/js?id=G-EXP449HEZ5"></script>
-    <script defer>
+    <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
@@ -161,6 +161,18 @@
     </style>
     <!-- main css -->
     <link rel="stylesheet" href="/src/css/master.css" />
+    <!-- Honeybadger Uptime monitoring -->
+    <script
+      src="//js.honeybadger.io/v5.2/honeybadger.min.js"
+      type="text/javascript"
+    ></script>
+
+    <script type="text/javascript">
+      Honeybadger.configure({
+        apiKey: 'hbp_IGFFcccPNLEv9KM2UDtWCAIpz1WuVG1BxhhR',
+        environment: 'production',
+      });
+    </script>
     <title>Elmouatez Billah Benariba</title>
   </head>
   <body>
