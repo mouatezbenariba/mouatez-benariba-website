@@ -139,6 +139,7 @@ figure {
 /* ----------------- */
 
 main {
+  min-height: calc(100vh - 13.6rem);
   padding: 4rem 0;
   background-color: var(--red-200);
 }
