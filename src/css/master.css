@@ -118,19 +118,19 @@ figure {
 /*  Header  Style  */
 /* --------------- */
 
-.header {
+.main-header {
   padding: 1.5rem 0;
 }
 
-.header__nav li {
+.main-header__nav li {
   margin: 0 0.5rem;
 }
 
-.header__nav a {
+.main-header__nav a {
   color: var(--gray-100);
 }
 
-.header__nav a:hover {
+.main-header__nav a:hover {
   text-decoration: underline solid var(--red-100) 0.1rem;
 }
 
@@ -160,7 +160,7 @@ main {
   font-size: var(--font-size-m);
 }
 
-.header__key {
+.main-header__key {
   text-decoration: underline solid var(--khaki-200) 0.3rem;
   text-underline-offset: 0.3rem;
 }
@@ -284,7 +284,7 @@ p.footer__copyright {
   }
 
   /* HEADER */
-  .header .container {
+  .main-header .container {
     flex-direction: row;
     justify-content: space-between;
   }
