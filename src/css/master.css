@@ -76,18 +76,12 @@ main {
 /* --------------------- */
 /*   Main Showcase Style */
 /* --------------------- */
-
-.showcase__tagline h1 {
-  font-size: var(--font-size-xl);
-}
-
 .showcase__projects .project {
   position: relative;
   flex-basis: 12rem;
   width: 15rem;
   margin-bottom: 1rem;
   border-radius: 0.5rem;
-  font-weight: var(--font-weight-300);
   transition-duration: 0.4s;
   overflow: hidden;
 }
