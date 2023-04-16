@@ -1,7 +1,3 @@
-/* ---------- */
-/* main style */
-/* ---------- */
-
 .container.article {
   max-width: 40rem;
   line-height: 1.5;
@@ -12,7 +8,7 @@ section {
 }
 
 .container.article figure {
-  max-width: 23rem;
+  max-width: 35rem;
   margin: auto;
 }
 
