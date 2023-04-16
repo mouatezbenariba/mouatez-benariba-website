@@ -1,3 +1,78 @@
+:root {
+  /*      Font Size      */
+  --font-size-xs: 1.2rem;
+  --font-size-s: 1.5rem;
+  --font-size-m: 1.7rem;
+  --font-size-l: 2rem;
+  --font-size-xl: 3rem;
+  --font-size-xxl: 4rem;
+
+  /*      Font Weight      */
+  --font-weight-300: 300;
+
+  /*         Colors        */
+  /* Red */
+  --red-100: #ffb2b2;
+  --red-200: #9b2727;
+  --red-300: #7a1f1f;
+
+  /* Gray */
+  --gray-100: #ffffff;
+
+  /* Khaki */
+  --khaki-100: #ffc107;
+  --khaki-200: rgba(255, 193, 7, 0.69);
+
+  /* Vermilion */
+  --vermilion-100: #ff5722;
+}
+
+/* font sizes */
+.fz-xs {
+  font-size: var(--font-size-xs);
+}
+
+.fz-s {
+  font-size: var(--font-size-s);
+}
+
+.fz-m {
+  font-size: var(--font-size-m);
+}
+
+.fz-l {
+  font-size: var(--font-size-l);
+}
+
+.fz-xl {
+  font-size: var(--font-size-xl);
+}
+
+.fz-xxl {
+  font-size: var(--font-size-xxl);
+}
+
+/* colors */
+.cl-red-100 {
+  color: var(--red-100);
+}
+
+.cl-red-200 {
+  color: var(--red-200);
+}
+
+.cl-red-300 {
+  color: var(--red-300);
+}
+
+.cl-khaki-100 {
+  color: var(--khaki-100);
+}
+
+.cl-black {
+  color: #000000;
+}
+
 .container {
   margin: auto;
 }
@@ -65,26 +140,17 @@
   color: #000000;
 }
 
-.bg-khaki-1 {
+.bg-khaki-100 {
   background-color: var(--khaki-100);
   color: #000000;
 }
 
-.bg-khaki-2 {
+.bg-khaki-200 {
   background-color: var(--khaki-200);
 }
 
 .bg-vermilion {
   background-color: var(--vermilion-100);
-}
-
-/* colors */
-.cl-khaki-1 {
-  color: var(--khaki-100);
-}
-
-.cl-black {
-  color: #000000;
 }
 
 .highlight-cl {
@@ -101,6 +167,16 @@
   border-radius: 0.3rem;
 }
 
+/* margin */
+.mg-0 {
+  margin: 0;
+}
+
+.mg-tp-0 {
+  margin-top: 0;
+}
+
+/* padding */
 .pd-tp-2 {
   padding-top: 2rem;
 }

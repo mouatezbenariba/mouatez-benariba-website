@@ -1,31 +1,3 @@
-:root {
-  /*      Font Size      */
-  --font-size-s: 1.5rem;
-  --font-size-m: 1.7rem;
-  --font-size-l: 2rem;
-  --font-size-xl: 3rem;
-  --font-size-xxl: 4rem;
-
-  /*      Font Weight      */
-  --font-weight-300: 300;
-
-  /*         Colors        */
-  /* Red */
-  --red-100: #ffb2b2;
-  --red-200: #9b2727;
-  --red-300: #7a1f1f;
-
-  /* Gray */
-  --gray-100: #ffffff;
-
-  /* Khaki */
-  --khaki-100: #ffc107;
-  --khaki-200: rgba(255, 193, 7, 0.69);
-
-  /* Vermilion */
-  --vermilion-100: #ff5722;
-}
-
 /* --------------- */
 /*      Reset      */
 /* --------------- */
