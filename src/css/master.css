@@ -5,7 +5,6 @@
 /* Remove body margin */
 body {
   min-height: 100vh;
-  margin: 0;
   font-family: 'Cabinet Grotesk', sans-serif;
   color: var(--gray-100);
   text-rendering: optimizeSpeed;
@@ -50,10 +49,6 @@ figure {
 
 .main-header__nav li {
   margin: 0 0.5rem;
-}
-
-.main-header__nav a {
-  color: var(--gray-100);
 }
 
 .main-header__nav a:hover {

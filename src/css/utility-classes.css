@@ -69,6 +69,10 @@
   color: var(--khaki-100);
 }
 
+.cl-white {
+  color: var(--gray-100);
+}
+
 .cl-black {
   color: #000000;
 }
