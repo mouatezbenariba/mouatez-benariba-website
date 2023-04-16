@@ -69,57 +69,11 @@ figure {
 }
 
 /* --------------- */
-/*  Utility Class  */
-/* --------------- */
-
-.container {
-  margin: auto;
-}
-
-.grain-bg {
-  background-color: var(--red-300);
-  background-image: url(/assets/images/elements/grains/bg-grain-dark.webp);
-  background-size: 350px auto;
-}
-
-.dp-fx {
-  display: flex;
-}
-
-.fx-dr__cl {
-  flex-direction: column;
-}
-
-.fx-dr__cl-rv {
-  flex-direction: column-reverse;
-}
-
-.fx-js__bn {
-  justify-content: space-between;
-}
-
-.fx-js__cn {
-  justify-content: center;
-}
-
-.fx-js__en {
-  justify-content: flex-end;
-}
-
-.fx-al__cn {
-  align-items: center;
-}
-
-.tx-al__cn {
-  text-align: center;
-}
-
-/* --------------- */
 /*  Header  Style  */
 /* --------------- */
 
 .main-header {
-  padding: 1.5rem 0;
+  padding: 1rem 0;
 }
 
 .main-header__nav li {
@@ -140,7 +94,7 @@ figure {
 
 main {
   min-height: calc(100vh - 13.6rem);
-  padding: 4rem 0;
+  padding: 4rem 1rem;
   background-color: var(--red-200);
 }
 
