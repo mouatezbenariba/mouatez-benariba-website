@@ -128,7 +128,6 @@ main {
 }
 
 .project__links__live {
-  font-size: var(--font-size-s);
   text-decoration: underline solid var(--khaki-100) 0.1rem;
   text-underline-offset: 0.4rem;
 }
