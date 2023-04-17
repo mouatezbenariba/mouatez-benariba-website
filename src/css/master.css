@@ -61,7 +61,7 @@ figure {
 
 main {
   min-height: calc(100vh - 13.6rem);
-  padding: 4rem 1rem;
+  padding: 2rem 1rem;
 }
 
 .main-header__key {
