@@ -118,18 +118,21 @@
       href="/assets/fonts/cabinet-grotesk/CabinetGrotesk-Light.woff2"
       as="font"
       type="font/woff2"
+      crossorigin
     />
     <link
       rel="preload"
       href="/assets/fonts/cabinet-grotesk/CabinetGrotesk-Regular.woff2"
       as="font"
       type="font/woff2"
+      crossorigin
     />
     <link
       rel="preload"
       href="/assets/fonts/cabinet-grotesk/CabinetGrotesk-Extrabold.woff2"
       as="font"
       type="font/woff2"
+      crossorigin
     />
     <!-- internal style -->
     <style>
@@ -149,16 +152,20 @@
 
       /* fonts */
       @font-face {
-        font-family: 'CabinetGrotesk-regular';
+        font-family: 'CabinetGrotesk-Regular';
         src: url(/assets/fonts/cabinet-grotesk/CabinetGrotesk-Regular.woff2);
       }
       @font-face {
-        font-family: 'CabinetGrotesk-light';
-        src: url(/assets/fonts/cabinet-grotesk/CabinetGrotesk-Regular.woff2);
+        font-family: 'CabinetGrotesk-Light';
+        src: url(/assets/fonts/cabinet-grotesk/CabinetGrotesk-Light.woff2);
       }
       @font-face {
-        font-family: 'CabinetGrotesk-extraBold';
-        src: url(/assets/fonts/cabinet-grotesk/CabinetGrotesk-Regular.woff2);
+        font-family: 'CabinetGrotesk-Extrabold';
+        src: url(/assets/fonts/cabinet-grotesk/CabinetGrotesk-Extrabold.woff2);
+      }
+
+      body {
+        font-family: 'CabinetGrotesk-Regular';
       }
     </style>
     <!-- main css -->
