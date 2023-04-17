@@ -79,10 +79,6 @@ figure {
   margin: 0 0.5rem;
 }
 
-.main-header__nav a {
-  color: var(--gray-100);
-}
-
 .main-header__nav a:hover {
   text-decoration: underline solid var(--red-100) 0.1rem;
 }
