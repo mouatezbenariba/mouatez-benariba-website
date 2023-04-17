@@ -75,6 +75,14 @@ figure {
   padding: 1rem 0;
 }
 
+a.main-header__logo {
+  margin: 0.5rem 0;
+}
+
+nav.main-header__nav {
+  margin: 0.5rem 0;
+}
+
 .main-header__nav li {
   margin: 0 0.5rem;
 }
