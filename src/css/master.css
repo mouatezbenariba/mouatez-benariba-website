@@ -83,6 +83,10 @@ figure {
   text-decoration: underline solid var(--red-100) 0.1rem;
 }
 
+.nav-links {
+  font-size: 1.2rem;
+}
+
 /* ----------------- */
 /*       Main        */
 /* ----------------- */
