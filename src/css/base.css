@@ -1,0 +1,162 @@
+:root {
+  /*      Font Size      */
+  --font-size-s: 1.5rem;
+  --font-size-m: 1.7rem;
+  --font-size-l: 2rem;
+  --font-size-xl: 3rem;
+  --font-size-xxl: 4rem;
+
+  /*      Font Weight      */
+  --font-weight-300: 300;
+
+  /*         Colors        */
+  /* Red */
+  --red-100: #ffb2b2;
+  --red-200: #9b2727;
+  --red-300: #7a1f1f;
+
+  /* Gray */
+  --gray-100: #ffffff;
+
+  /* Khaki */
+  --khaki-100: #ffc107;
+  --khaki-200: rgba(255, 193, 7, 0.69);
+
+  /* Vermilion */
+  --vermilion-100: #ff5722;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Cabinet Grotesk', sans-serif;
+  color: var(--gray-100);
+  text-rendering: optimizeSpeed;
+}
+
+/* --------------- */
+/*      Reset      */
+/* --------------- */
+
+/*  Box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* reset list style */
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* reset links style */
+a {
+  color: var(--gray-100);
+  text-decoration: none;
+}
+
+/* reset figure margin */
+figure {
+  margin: 0;
+}
+
+/* --------------- */
+/*  Header  Style  */
+/* --------------- */
+
+.main-header {
+  padding: 1rem 0;
+}
+
+a.main-header__logo {
+  margin: 0.5rem 0;
+}
+
+nav.main-header__nav {
+  margin: 0.5rem 0;
+}
+
+.main-header__nav li {
+  margin: 0 0.5rem;
+}
+
+.main-header__nav a:hover {
+  text-decoration: underline solid var(--red-100) 0.1rem;
+}
+
+.nav-links {
+  font-size: 1.2rem;
+}
+
+/* -------------- */
+/*  Footer Style  */
+/* -------------- */
+
+.footer {
+  padding: 1.5rem 0;
+}
+
+p.footer__copyright {
+  margin-bottom: 0;
+}
+
+.footer__links li:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.footer__links li {
+  transform: rotateZ(0) scale(1);
+}
+
+.footer__links li:hover {
+  transform: rotateZ(5deg) scale(1.1);
+}
+
+.footer__links svg {
+  width: 1.7rem;
+}
+
+.footer__links svg:hover {
+  fill: var(--khaki-100);
+}
+
+/* --------------- */
+/*  Media Queries  */
+/* --------------- */
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: calc(100vw - 50px);
+  }
+
+  /* HEADER */
+  .main-header .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 740px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 948px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1160px;
+  }
+}
