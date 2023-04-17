@@ -1,101 +1,18 @@
-:root {
-  /*      Font Size      */
-  --font-size-xs: 1.2rem;
-  --font-size-s: 1.5rem;
-  --font-size-m: 1.7rem;
-  --font-size-l: 2rem;
-  --font-size-xl: 3rem;
-  --font-size-xxl: 4rem;
-
-  /*      Font Weight      */
-  --font-weight-300: 300;
-
-  /*         Colors        */
-  /* Red */
-  --red-100: #ffb2b2;
-  --red-200: #9b2727;
-  --red-300: #7a1f1f;
-
-  /* Gray */
-  --gray-100: #ffffff;
-
-  /* Khaki */
-  --khaki-100: #ffc107;
-  --khaki-200: rgba(255, 193, 7, 0.69);
-
-  /* Vermilion */
-  --vermilion-100: #ff5722;
-}
-
-/* font sizes */
-.fz-xs {
-  font-size: var(--font-size-xs);
-}
-
-.fz-s {
-  font-size: var(--font-size-s);
-}
-
-.fz-m {
-  font-size: var(--font-size-m);
-}
-
-.fz-l {
-  font-size: var(--font-size-l);
-}
-
-.fz-xl {
-  font-size: var(--font-size-xl);
-}
-
-.fz-xxl {
-  font-size: var(--font-size-xxl);
-}
-
-/* font-weight */
-.fw-300 {
-  font-weight: 300;
-}
-/* colors */
-.cl-red-100 {
-  color: var(--red-100);
-}
-
-.cl-red-200 {
-  color: var(--red-200);
-}
-
-.cl-red-300 {
-  color: var(--red-300);
-}
-
-.cl-khaki-100 {
-  color: var(--khaki-100);
-}
-
-.cl-white {
-  color: var(--gray-100);
-}
-
-.cl-black {
-  color: #000000;
-}
-
+/* --------------- */
+/*  Utility Class  */
+/* --------------- */
 .container {
   margin: auto;
 }
 
+/* grain background */
 .grain-bg {
   background-color: var(--red-300);
   background-image: url(/assets/images/elements/grains/bg-grain-dark.webp);
   background-size: 350px auto;
 }
 
-/* box-size */
-.dp-bl {
-  display: block;
-}
-
+/* flex */
 .dp-fx {
   display: flex;
 }
@@ -128,7 +45,11 @@
   text-align: center;
 }
 
-/* background colors */
+/* color scheme background images */
+.color-code {
+  border: 1px solid;
+  border-radius: 0.3rem;
+}
 
 .bg-red300 {
   background-color: var(--red-300);
@@ -148,12 +69,12 @@
   color: #000000;
 }
 
-.bg-khaki-100 {
+.bg-khaki-1 {
   background-color: var(--khaki-100);
   color: #000000;
 }
 
-.bg-khaki-200 {
+.bg-khaki-2 {
   background-color: var(--khaki-200);
 }
 
@@ -161,6 +82,7 @@
   background-color: var(--vermilion-100);
 }
 
+/* emphasize */
 .highlight {
   color: var(--khaki-100);
 }
@@ -168,39 +90,4 @@
 .underline {
   text-decoration: underline dashed var(--khaki-100) 0.1rem;
   text-underline-offset: 0.3rem;
-}
-
-.color-code {
-  border: 1px solid;
-  border-radius: 0.3rem;
-}
-
-/* margin */
-.mg-0 {
-  margin: 0;
-}
-
-.mg-tp-0 {
-  margin-top: 0;
-}
-
-.mg-tp-1 {
-  margin-top: 1;
-}
-
-.mg-bt-0 {
-  margin-bottom: 0;
-}
-
-.mg-bt-1 {
-  margin-bottom: 1;
-}
-
-/* padding */
-.pd-tp-2 {
-  padding-top: 2rem;
-}
-
-.pd-bt-2 {
-  padding-bottom: 2rem;
 }
