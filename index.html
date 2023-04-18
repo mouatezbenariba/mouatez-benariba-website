@@ -156,42 +156,33 @@
         src: url(/assets/fonts/cabinet-grotesk/CabinetGrotesk-Regular.woff2);
         font-display: swap;
       }
-      @font-face {
-        font-family: 'CabinetGrotesk-Light';
-        src: url(/assets/fonts/cabinet-grotesk/CabinetGrotesk-Light.woff2);
-        font-display: swap;
+      body {
+        font-family: 'CabinetGrotesk-Regular';
       }
+
       @font-face {
         font-family: 'CabinetGrotesk-Extrabold';
         src: url(/assets/fonts/cabinet-grotesk/CabinetGrotesk-Extrabold.woff2);
         font-display: swap;
       }
-
-      body {
-        font-family: 'CabinetGrotesk-Regular';
-      }
-
       .main-info h1 {
         font-family: 'CabinetGrotesk-Extrabold';
       }
 
+      @font-face {
+        font-family: 'CabinetGrotesk-Light';
+        src: url(/assets/fonts/cabinet-grotesk/CabinetGrotesk-Light.woff2);
+        font-display: swap;
+      }
       .main-info h1 + span {
         font-family: 'CabinetGrotesk-light';
       }
 
-      /* utility classes */
       /* --------------- */
       /*  Utility Class  */
       /* --------------- */
       .container {
         margin: auto;
-      }
-
-      /* grain background */
-      .grain-bg {
-        background-color: var(--red-300);
-        background-image: url(/assets/images/elements/grains/bg-grain-dark.webp);
-        background-size: 350px auto;
       }
 
       /* flex */
@@ -225,53 +216,6 @@
 
       .tx-al__cn {
         text-align: center;
-      }
-
-      /* color scheme background images */
-      .color-code {
-        border: 1px solid;
-        border-radius: 0.3rem;
-      }
-
-      .bg-red300 {
-        background-color: var(--red-300);
-      }
-
-      .bg-red200 {
-        background-color: var(--red-200);
-      }
-
-      .bg-red100 {
-        background-color: var(--red-100);
-        color: #000000;
-      }
-
-      .bg-white {
-        background-color: var(--gray-100);
-        color: #000000;
-      }
-
-      .bg-khaki-1 {
-        background-color: var(--khaki-100);
-        color: #000000;
-      }
-
-      .bg-khaki-2 {
-        background-color: var(--khaki-200);
-      }
-
-      .bg-vermilion {
-        background-color: var(--vermilion-100);
-      }
-
-      /* emphasize */
-      .highlight {
-        color: var(--khaki-100);
-      }
-
-      .underline {
-        text-decoration: underline dashed var(--khaki-100) 0.1rem;
-        text-underline-offset: 0.3rem;
       }
     </style>
     <!-- main css -->
