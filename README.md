@@ -48,6 +48,3 @@ My inspiration for this website came from the portfolios of some amazing fronten
 
 ## Author
 This project was created by [Elmouatez Billah Benariba](https://www.linkedin.com/in/mouatezbenariba/).
-
-## Copyright
-© [2023] [Elmouatez Billah Benariba]. This project is licensed under the [License Name] License. See the LICENSE.md file for details.
