@@ -7,7 +7,11 @@ This is my personal website that showcases my frontend projects and services. Th
 </div>
 
 ## Page Quality
-The website scores 100% for all core web vitals for both desktop and mobile. This means that it loads quickly, is mobile-friendly, and has good accessibility.
+The website scores 100% for all Core Web Vitals for both desktop and mobile. This means that it loads quickly, is mobile-friendly, and has good accessibility.
+- <a href="https://pagespeed.web.dev/analysis/https-mouatezbenariba-me/dbfqmdtfqf?form_factor=mobile">Report Here</a>
+<div align="center">
+  <img alt="Logo" src="https://raw.githubusercontent.com/mouatezbenariba/mouatez-benariba-website/main/assets/images/case-study/pagespeed.webp" width="900" />
+</div>
 
 ## Built With
 - HTML5
