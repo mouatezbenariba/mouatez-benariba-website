@@ -1,5 +1,10 @@
 # 🚀 mouatezbenariba.me
-This is my personal website that showcases my frontend projects and services. The website is built with HTML5, CSS3, and uses modern frontend development techniques like flexbox, mobile-first workflow, and responsive design.
+This is my personal website that showcases my frontend projects and services. The website is built with HTML5, CSS3, and deployed with <a href="https://www.netlify.com/">netlify</a>.
+
+## Screenshot
+<div align="center">
+  <img alt="Logo" src="https://raw.githubusercontent.com/mouatezbenariba/mouatez-benariba-website/main/assets/images/case-study/mouatezbenariba.me.webp" width="900" />
+</div>
 
 ## Page Quality
 The website scores 100% for all core web vitals for both desktop and mobile. This means that it loads quickly, is mobile-friendly, and has good accessibility.
