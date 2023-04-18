@@ -113,6 +113,7 @@
   .showcase__projects .project {
     height: 12rem;
     flex-basis: 32%;
+    margin-bottom: 0;
   }
 }
 
