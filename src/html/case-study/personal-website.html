@@ -134,6 +134,19 @@
       />
       <!-- internal style -->
       <style>
+        @font-face {
+          font-family: 'CabinetGrotesk-Regular';
+          src: url(/assets/fonts/cabinet-grotesk/CabinetGrotesk-Regular.woff2);
+        }
+        @font-face {
+          font-family: 'CabinetGrotesk-Light';
+          src: url(/assets/fonts/cabinet-grotesk/CabinetGrotesk-Light.woff2);
+        }
+        @font-face {
+          font-family: 'CabinetGrotesk-Extrabold';
+          src: url(/assets/fonts/cabinet-grotesk/CabinetGrotesk-Extrabold.woff2);
+        }
+
         @media screen and (min-width: 480px) {
           picture img {
             width: 400px;
@@ -147,11 +160,15 @@
             height: 316px;
           }
         }
+
+        body {
+          font-family: 'CabinetGrotesk-Regular';
+        }
       </style>
       <!-- main css -->
       <link rel="stylesheet" href="/src/css/utility-classes.css" />
-      <link rel="stylesheet" href="/src/css/articles.css" />
       <link rel="stylesheet" href="/src/css/base.css" />
+      <link rel="stylesheet" href="/src/css/articles.css" />
       <title>Elmouatez Billah Benariba</title>
     </head>
     <body class="fz-xs mg-0">
