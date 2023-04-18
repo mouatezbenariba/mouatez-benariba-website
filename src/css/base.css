@@ -30,7 +30,7 @@ body {
   min-height: 100vh;
   margin: 0;
   color: var(--gray-100);
-  text-rendering: optimizeLegibility;
+  text-rendering: optimizeSpeed;
 }
 
 /* --------------- */
