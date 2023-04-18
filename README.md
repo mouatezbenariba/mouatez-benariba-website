@@ -1,5 +1,10 @@
 # 🚀 mouatezbenariba.me
-This is my personal website that showcases my frontend projects and services. The website is built with HTML5, CSS3, and deployed with <a href="https://www.netlify.com/">netlify</a>.
+This is my personal website that showcases my frontend projects and services. The website is built with HTML5, CSS3, and deployed with <a href="https://www.netlify.com/">netlify</a>. Responsive and inclusive design principles were respected.
+<p align="center">
+  <a href="https://app.netlify.com/sites/mouatezbenariba/deploys" target="_blank">
+    <img src="https://api.netlify.com/api/v1/badges/1963b488-7b78-48c9-9e2d-6fb5e47ab3af/deploy-status" alt="Netlify Status" />
+  </a>
+</p>
 
 ## Screenshot
 <div align="center">
@@ -19,23 +24,6 @@ The website scores 100% for all Core Web Vitals for both desktop and mobile. Thi
 - Flexbox
 - Mobile-first workflow
 - CSS animation
-- Responsive design principles
-- Inclusive design
-
-## What I Learned
-While building this website, I learned several important frontend development techniques, including:
-- Downloading and optimizing Google Fonts
-- Deferring non-critical CSS
-- Loading CSS files according to media screen size
-- Improving core web vitals
-- Font best practices
-- CSS class BEM naming convention
-- Optimizing web font loading and rendering
-- Reducing layout shifts and improving performance
-- Optimizing tweets with Twitter cards
-- Using multiple sources for a picture
-- Rediriect pages in case of an error to a custom 404 page
-- Generate sitemap.xml for website
 
 ## Use Case Study and Steps of Building the Website
 To build this website, I followed a specific case study that I've documented in detail on my website. This case study covers everything from choosing the right colors to improving performance, accessibility, and SEO.
@@ -51,4 +39,6 @@ My inspiration for this website came from the portfolios of some amazing fronten
 - [Lynn Fisher](https://lynnandtonic.com/)
 
 ## Author
-This project was created by [Elmouatez Billah Benariba](https://www.linkedin.com/in/mouatezbenariba/).
+- Linkedin - [Elmouatez Billah Benariba](https://www.linkedin.com/in/mouatezbenariba/)
+- Twitter - [@mouatezbenariba](https://twitter.com/mouatezbenariba)
+- Instagram - [@mouatez.benariba](https://www.instagram.com/mouatez.benariba/)
