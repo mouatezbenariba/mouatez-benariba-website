@@ -27,6 +27,7 @@ section {
 .article-header__heading .description {
   font-size: 2rem;
   color: var(--khaki-100);
+  word-wrap: break-word;
 }
 
 .article-header__heading {
