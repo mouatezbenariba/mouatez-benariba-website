@@ -234,6 +234,12 @@
           text-decoration: underline dashed var(--khaki-100) 0.1rem;
           text-underline-offset: 0.3rem;
         }
+        /* open link icon */
+        .open-link {
+          display: inline-block;
+          width: 0.8rem;
+          fill: var(--khaki-100);
+        }
       </style>
       <!-- main css -->
       <link rel="stylesheet" href="/src/css/base.css" />
@@ -663,30 +669,226 @@
               <ul>
                 <li>
                   - Optimized the loading and rendering of web fonts by preloading them.
+                  <a
+                    href="https://web.dev/optimize-webfont-loading/"
+                    target="_blank"
+                    rel="noopener"
+                    title="Optimize WebFont loading and rendering - Ilya Grigorik"
+                    aria-label="Optimize WebFont loading and rendering - Ilya Grigorik article"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                      class="open-link"
+                    >
+                      <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                      <path
+                        d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"
+                      />
+                    </svg>
+                  </a>
                 </li>
-                <li>- Served images in the next-gen format (WebP).</li>
+                <li>
+                  - Served images in the next-gen format (WebP).
+                  <a
+                    href="https://web.dev/serve-images-webp/"
+                    target="_blank"
+                    rel="noopener"
+                    title="Use WebP images - Katie Hempenius"
+                    aria-label="Use WebP images - Katie Hempenius article"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                      class="open-link"
+                    >
+                      <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                      <path
+                        d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"
+                      />
+                    </svg>
+                  </a>
+                </li>
                 <li>
                   - Used multiple sources for a picture tag to suit the viewport in terms
                   of quality and size.
                 </li>
-                <li>- Prioritized critical CSS.</li>
+                <li>
+                  - Prioritized critical CSS and defer non-critical CSS.
+                  <a
+                    href="https://web.dev/defer-non-critical-css/"
+                    target="_blank"
+                    rel="noopener"
+                    title="Defer non-critical CSS - Demian Renzulli"
+                    aria-label="Defer non-critical CSS - Demian Renzulli article"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                      class="open-link"
+                    >
+                      <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                      <path
+                        d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"
+                      />
+                    </svg>
+                  </a>
+                </li>
                 <li>
                   - Properly sized images by adding explicit width and height dimensions.
+                  <a
+                    href="https://web.dev/serve-images-with-correct-dimensions/"
+                    target="_blank"
+                    rel="noopener"
+                    title="Serve images with correct dimensions - Katie Hempenius"
+                    aria-label="Serve images with correct dimensions - Katie Hempenius article"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                      class="open-link"
+                    >
+                      <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                      <path
+                        d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"
+                      />
+                    </svg>
+                  </a>
                 </li>
-                <li>- Eliminated rendering blocking resources</li>
-                <li>- Avoided chaining critical requests.</li>
+                <li>
+                  - Eliminated rendering blocking resources.
+                  <a
+                    href="https://developer.chrome.com/en/docs/lighthouse/performance/render-blocking-resources/"
+                    target="_blank"
+                    rel="noopener"
+                    title="Eliminate render-blocking resources - chrome developers"
+                    aria-label="Eliminate render-blocking resources - chrome developers article"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                      class="open-link"
+                    >
+                      <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                      <path
+                        d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  - Avoided chaining critical requests.
+                  <a
+                    href="https://developer.chrome.com/en/docs/lighthouse/performance/critical-request-chains/"
+                    target="_blank"
+                    rel="noopener"
+                    title="Avoid chaining critical requests - chrome developers"
+                    aria-label="Avoid chaining critical requests - chrome developers article"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                      class="open-link"
+                    >
+                      <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                      <path
+                        d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"
+                      />
+                    </svg>
+                  </a>
+                </li>
               </ul>
               <p>For accessibility, I added:</p>
               <ul>
                 <li>- alt text to images.</li>
-                <li>- ARIA labels for links that don't have discernible names.</li>
+                <li>
+                  - ARIA labels for links that don't have discernible names.
+                  <a
+                    href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label"
+                    target="_blank"
+                    rel="noopener"
+                    title="aria-label docs - MDN"
+                    aria-label="aria-label docs - MDN article"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                      class="open-link"
+                    >
+                      <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                      <path
+                        d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"
+                      />
+                    </svg>
+                  </a>
+                </li>
               </ul>
               <p>For SEO, I added:</p>
               <ul>
                 <li>- meta author and meta description.</li>
-                <li>- Open Graph protocol Metadata tags (facebook).</li>
-                <li>- Twitter cards tags.</li>
-                <li>- schema.org structured data</li>
+                <li>
+                  - Open Graph protocol Metadata tags (facebook).
+                  <a
+                    href="https://ogp.me/"
+                    target="_blank"
+                    rel="noopener"
+                    title="The Open Graph protocol official website"
+                    aria-label="The Open Graph protocol official website"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                      class="open-link"
+                    >
+                      <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                      <path
+                        d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  - Twitter cards tags.
+                  <a
+                    href="https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started"
+                    target="_blank"
+                    rel="noopener"
+                    title="Getting started with cards - Twitter Developer Platform"
+                    aria-label="Getting started with cards - Twitter Developer Platform"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                      class="open-link"
+                    >
+                      <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                      <path
+                        d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  - schema.org structured data.
+                  <a
+                    href="https://schema.org/"
+                    target="_blank"
+                    rel="noopener"
+                    title="Schema.or website"
+                    aria-label="Schema.or website"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                      class="open-link"
+                    >
+                      <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                      <path
+                        d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"
+                      />
+                    </svg>
+                  </a>
+                </li>
                 <li>- sitemap.xml file to my website.</li>
                 <li>- mouatezbenariba.me to google search console.</li>
               </ul>
