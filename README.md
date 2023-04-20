@@ -25,7 +25,7 @@ The website scores 100% for all Core Web Vitals for both desktop and mobile. Thi
 - Mobile-first workflow
 - CSS animation
 
-## Use Case Study and Steps of Building the Website
+## Case Study and Steps of Building the Website
 To build this website, I followed a specific case study that I've documented in detail on my website. This case study covers everything from choosing the right colors to improving performance, accessibility, and SEO.
 
 - You can read the full case study [Case Study - mouatezbenariba.me](https://mouatezbenariba.me/src/html/case-study/personal-website.html).
