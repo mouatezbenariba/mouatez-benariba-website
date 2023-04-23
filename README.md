@@ -8,14 +8,14 @@ This is my personal website that showcases my frontend projects and services. Th
 
 ## Screenshot
 <div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/mouatezbenariba/mouatez-benariba-website/main/assets/images/case-study/mouatezbenariba.me.webp" width="900" />
+  <img alt="Logo" src="https://raw.githubusercontent.com/mouatezbenariba/mouatez-benariba-website/main/assets/images/case-study/mouatezbenariba.me/mouatezbenariba.me.webp" width="900" />
 </div>
 
 ## Page Quality
 The website scores 100% for all Core Web Vitals for both desktop and mobile. This means that it loads quickly, is mobile-friendly, and has good accessibility.
 - <a href="https://pagespeed.web.dev/analysis/https-mouatezbenariba-me/dbfqmdtfqf?form_factor=mobile">Report Here</a>
 <div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/mouatezbenariba/mouatez-benariba-website/main/assets/images/case-study/pagespeed.webp" width="900" />
+  <img alt="Logo" src="https://raw.githubusercontent.com/mouatezbenariba/mouatez-benariba-website/main/assets/images/case-study/mouatezbenariba.me/pagespeed.webp" width="900" />
 </div>
 
 ## Built With
@@ -25,7 +25,7 @@ The website scores 100% for all Core Web Vitals for both desktop and mobile. Thi
 - Mobile-first workflow
 - CSS animation
 
-## Use Case Study and Steps of Building the Website
+## Case Study and Steps of Building the Website
 To build this website, I followed a specific case study that I've documented in detail on my website. This case study covers everything from choosing the right colors to improving performance, accessibility, and SEO.
 
 - You can read the full case study [Case Study - mouatezbenariba.me](https://mouatezbenariba.me/src/html/case-study/personal-website.html).
