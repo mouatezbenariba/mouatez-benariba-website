@@ -79,13 +79,73 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
     <meta name="theme-color" content="#ffffff" />
     <!-- CSS files -->
+    <link rel="stylesheet" href="/src/css/base.css" />
     <link rel="stylesheet" href="/src/css/master.css" />
-    <link rel="stylesheet" href="/src/css/utility-classes.css" />
+    <!-- preload font files -->
+    <link
+      rel="preload"
+      href="/assets/fonts/cabinet-grotesk/CabinetGrotesk-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <!-- internal style -->
+    <style>
+      /* fonts */
+      @font-face {
+        font-family: 'CabinetGrotesk-Regular';
+        src: url(/assets/fonts/cabinet-grotesk/CabinetGrotesk-Regular.woff2);
+        font-display: optional;
+      }
+      body {
+        font-family: 'CabinetGrotesk-Regular';
+      }
+
+      /* --------------- */
+      /*  Utility Class  */
+      /* --------------- */
+      .container {
+        margin: auto;
+      }
+
+      /* flex */
+      .dp-fx {
+        display: flex;
+      }
+
+      .fx-dr__cl {
+        flex-direction: column;
+      }
+
+      .fx-dr__cl-rv {
+        flex-direction: column-reverse;
+      }
+
+      .fx-js__bn {
+        justify-content: space-between;
+      }
+
+      .fx-js__cn {
+        justify-content: center;
+      }
+
+      .fx-js__en {
+        justify-content: flex-end;
+      }
+
+      .fx-al__cn {
+        align-items: center;
+      }
+
+      .tx-al__cn {
+        text-align: center;
+      }
+    </style>
     <title>Page Not Found - Mouatez Benariba</title>
   </head>
   <body class="fz-xs">
     <header class="main-header grain-bg">
-      <div class="container">
+      <div class="container dp-fx fx-dr__cl fx-al__cn">
         <div class="main-header__logo">
           <a href="/index.html" aria-label="Home page" name="Home">
             <svg
