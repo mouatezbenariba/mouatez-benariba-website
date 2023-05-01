@@ -1,5 +1,15 @@
 # 🚀 mouatezbenariba.me
+
+<div align="center">
+  <img
+    src="/assets/images/seo/mouatezbenariba-preview.png"
+    alt="mouatezbenariba.me Home page"
+    width="900"
+  />
+</div>
+<p align="center">
 This is my personal website that showcases my frontend projects and services. The website is built with HTML5, CSS3, and deployed with <a href="https://www.netlify.com/">netlify</a>. Responsive and inclusive design principles were respected.
+</p>
 <p align="center">
   <a href="https://app.netlify.com/sites/mouatezbenariba/deploys" target="_blank">
     <img src="https://api.netlify.com/api/v1/badges/1963b488-7b78-48c9-9e2d-6fb5e47ab3af/deploy-status" alt="Netlify Status" />
