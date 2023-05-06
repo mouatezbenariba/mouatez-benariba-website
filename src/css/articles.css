@@ -51,6 +51,6 @@ section {
   box-shadow: 0 0 10px 0px #000000;
 }
 
-h2.article-section__nested-heading {
+.article-section__nested-heading {
   font-size: 1.2rem;
 }
