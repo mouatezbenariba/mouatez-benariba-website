@@ -24,6 +24,17 @@
 
   /* Vermilion */
   --vermilion-100: #ff5722;
+
+  /* Purple */
+  --purple-100: #f5ebff;
+  --purple-200: #dcc4ff;
+
+  /* Red */
+  --red-100: #e52424;
+  --red-200: #7a1f1f;
+
+  /* Bluish cyan */
+  --bluishCyan-100: #2cccfb;
 }
 
 body {
