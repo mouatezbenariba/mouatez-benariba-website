@@ -3,7 +3,6 @@
 <div align="center">
   <img
     src="/assets/images/seo/mouatezbenariba-preview.png"
-    alt="mouatezbenariba.me Home page"
     width="900"
   />
 </div>
@@ -49,6 +48,7 @@ My inspiration for this website came from the portfolios of some amazing fronten
 - [Lynn Fisher](https://lynnandtonic.com/)
 
 ## Author
+- website - [Elmouatez Billah Benariba](https://mouatezbenariba.me/)
 - Linkedin - [Elmouatez Billah Benariba](https://www.linkedin.com/in/mouatezbenariba/)
 - Twitter - [@mouatezbenariba](https://twitter.com/mouatezbenariba)
 - Instagram - [@mouatez.benariba](https://www.instagram.com/mouatez.benariba/)
