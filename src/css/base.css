@@ -14,6 +14,8 @@
   --red-100: #ffb2b2;
   --red-200: #9b2727;
   --red-300: #7a1f1f;
+  --red-400: #e52424;
+  --red-500: #7a1f1f;
 
   /* Gray */
   --gray-100: #ffffff;
@@ -28,10 +30,6 @@
   /* Purple */
   --purple-100: #f5ebff;
   --purple-200: #dcc4ff;
-
-  /* Red */
-  --red-100: #e52424;
-  --red-200: #7a1f1f;
 
   /* Bluish cyan */
   --bluishCyan-100: #2cccfb;

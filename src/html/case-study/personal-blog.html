@@ -197,6 +197,14 @@
           border-radius: 0.3rem;
         }
 
+        .bg-red-500 {
+          background-color: var(--red-200);
+        }
+
+        .bg-red-400 {
+          background-color: var(--red-100);
+        }
+
         .bg-red300 {
           background-color: var(--red-300);
         }
@@ -237,14 +245,6 @@
         .bg-purple-200 {
           background-color: var(--purple-200);
           color: #000000;
-        }
-
-        .bg-red-100 {
-          background-color: var(--red-100);
-        }
-
-        .bg-red-200 {
-          background-color: var(--red-200);
         }
 
         .bg-blue-100 {
@@ -519,10 +519,10 @@
                   footer background color is a deeper shade of purple
                   <span class="bg-purple-200 color-code">#dcc4ff</span>, which provides a
                   subtle contrast while still maintaining a cohesive look. I used a bright
-                  <span class="bg-red-100 color-code">#e52424</span> red for tags in
+                  <span class="bg-red-400 color-code">#e52424</span> red for tags in
                   article snippets, which stands out against the muted colors and draws
                   attention to the topic of the post. For tags in the tag list, I used a
-                  darker shade of red <span class="bg-red-200 color-code">#7a1f1f</span>,
+                  darker shade of red <span class="bg-red-500 color-code">#7a1f1f</span>,
                   which provides a visual distinction between the different categories.
                   Finally, I used a bluish cyan
                   <span class="bg-blue-100 color-code">#2cccfb</span> for the next and
@@ -643,6 +643,50 @@
                     intended and to catch any potential bugs or errors before deployment.
                   </li>
                 </ul>
+              </section>
+              <section class="article-section__nested">
+                <h3 class="article-section__nested-heading fz-xs">d. Social Media</h3>
+                <p>
+                  I made sure that my personal website is optimized for sharing on social
+                  media platforms by adding
+                  <a
+                    href="https://ogp.me/"
+                    target="_blank"
+                    rel="noopener"
+                    class="highlight underline"
+                    >Open Graph metadata</a
+                  >
+                  and
+                  <a
+                    href="https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started"
+                    target="_blank"
+                    rel="noopener"
+                    class="highlight underline"
+                    >Twitter cards</a
+                  >. This ensures that when my website is shared on social media, it is
+                  presented in an attractive and professional manner, with the appropriate
+                  image, title, and description.
+                </p>
+                <figure>
+                  <img
+                    src="/assets/images/seo/personal-website-facebook-preview.webp"
+                    alt="The image displays the implementation of Open Graph Meta tags on my personal website, followed by an explanation of the anatomy of the corresponding link preview."
+                  />
+                  <figcaption class="tx-al__cn">
+                    the Anatomy of a Facebook link preview that is generated using Open
+                    Graph Meta tags
+                  </figcaption>
+                </figure>
+                <figure>
+                  <img
+                    src="/assets/images/seo/personal-website-twitter-cards.webp"
+                    alt="The image displays the implementation of Twitter Cards Markup on my personal website, followed by an explanation of the anatomy of the corresponding Twitter card."
+                  />
+                  <figcaption class="tx-al__cn">
+                    the Anatomy of a Twitter Card (twitter link preview) that is generated
+                    using Twitter Card Markup.
+                  </figcaption>
+                </figure>
               </section>
             </section>
             <section class="article-section">
