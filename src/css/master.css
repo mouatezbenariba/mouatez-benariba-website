@@ -36,8 +36,8 @@
 
 .showcase__projects .project {
   position: relative;
-  flex-basis: 12rem;
-  width: 15rem;
+  flex-basis: 30rem;
+  height: 12rem;
   margin-bottom: 1rem;
   border-radius: 0.5rem;
   font-weight: var(--font-weight-300);
@@ -96,17 +96,10 @@
 /*  Media Queries  */
 /* --------------- */
 
-@media screen and (min-width: 320px) {
-  /* MAIN SHOWCASE */
-  .showcase__projects .project {
-    width: 15rem;
-  }
-}
-
 @media screen and (min-width: 768px) {
   /* MAIN SHOWCASE */
   .showcase__projects {
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: space-around;
   }
 
