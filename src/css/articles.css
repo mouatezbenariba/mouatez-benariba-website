@@ -48,6 +48,7 @@ section {
   max-width: 100%;
   border-radius: 0.6rem;
   border: 0.2rem solid var(--khaki-200);
+  -webkit-box-shadow: 0 0 10px 0px #000000;
   box-shadow: 0 0 10px 0px #000000;
 }
 

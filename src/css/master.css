@@ -20,6 +20,7 @@
 }
 
 .main-header__key {
+  -webkit-text-decoration: underline solid var(--khaki-200) 0.3rem;
   text-decoration: underline solid var(--khaki-200) 0.3rem;
   text-underline-offset: 0.3rem;
 }
@@ -36,26 +37,35 @@
 
 .showcase__projects .project {
   position: relative;
+  -ms-flex-preferred-size: 30rem;
   flex-basis: 30rem;
   height: 12rem;
   margin-bottom: 1rem;
   border-radius: 0.5rem;
   font-weight: var(--font-weight-300);
+  -webkit-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
   transition-duration: 0.4s;
   overflow: hidden;
 }
 
 .project__illustration {
+  -ms-flex-preferred-size: 75%;
   flex-basis: 75%;
 }
 
 .showcase__projects .project:hover {
+  -webkit-box-shadow: inset 0 0 15px 0px var(--vermilion-100);
   box-shadow: inset 0 0 15px 0px var(--vermilion-100);
+  -webkit-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
 
 .showcase__projects svg {
   width: 2.2rem;
+  -webkit-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
 
@@ -73,6 +83,8 @@
 .project__links__github,
 .project__links__description {
   position: absolute;
+  -webkit-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
 
@@ -88,6 +100,7 @@
 
 .project__links__live {
   font-size: var(--font-size-s);
+  -webkit-text-decoration: underline solid var(--khaki-100) 0.1rem;
   text-decoration: underline solid var(--khaki-100) 0.1rem;
   text-underline-offset: 0.4rem;
 }
@@ -100,11 +113,13 @@
   /* MAIN SHOWCASE */
   .showcase__projects {
     /* flex-direction: row; */
+    -ms-flex-pack: distribute;
     justify-content: space-around;
   }
 
   .showcase__projects .project {
     height: 12rem;
+    -ms-flex-preferred-size: 32%;
     flex-basis: 32%;
     margin-bottom: 0;
   }
@@ -113,7 +128,11 @@
 @media screen and (min-width: 992px) {
   /* MAIN INFO */
   .main-info {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
     text-align: left;
   }
